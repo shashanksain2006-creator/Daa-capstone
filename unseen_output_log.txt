@@ -1,0 +1,15 @@
+Loaded 5 parcels, 6 nodes, capacity 15 kg
+
+Sorted parcels (pid, dest, kg, prio, deadline):
+  P5   dest=2   3kg prio=5  deadline=1h
+  P3   dest=1   4kg prio=3  deadline=2h
+  P1   dest=3   6kg prio=7  deadline=4h
+  P2   dest=5   9kg prio=9  deadline=8h
+  P4   dest=4   5kg prio=6  deadline=8h
+
+Knapsack capacity = 15 kg  ->  best total priority = 18
+Selected parcels: ['P5', 'P1', 'P4'] | total weight = 14 kg
+
+Delivery stops order: [0, 2, 4, 3, 0]
+Full road path      : [0, 2, 4, 3, 4, 2, 0]
+Total route length  : 18 km
